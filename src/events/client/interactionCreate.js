@@ -19,8 +19,6 @@ module.exports = async (client, interaction) => {
                 const now = Date.now();
                 const timestamps = cooldowns.get(command.name);
                 const cooldownAmount = command.cooldown || (2 * 1000);
-                const staffData = await StaffSh.findOne({ id: interaction.user.id });
-                const serverData = await serverSh.findOne({ id: interaction.guild.id });
 
 
             
