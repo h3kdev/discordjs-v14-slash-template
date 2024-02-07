@@ -5,7 +5,6 @@ module.exports = {
     description: 'Test command',
     usage: '/test',
     category: "user",
-    point: 10,
     cooldown: 1000,
     permissions: [],
     options: [],
