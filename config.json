@@ -1,0 +1,14 @@
+{
+    "bot": {
+        "token": "",
+        "database": "",
+        "botID": "",
+        "ownerID": ["", ""],
+        "serverID": "",
+        "status": {
+            "setActivity": "dev by h3k",
+            "setType": 3,
+            "setStatus": "idle"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "h3k-advanced-discord-bot",
+    "version": "2.0.0",
+    "description": "h3k tarafından discordjs v14 sürümü için geliştirilen gelişmiş discord botu",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/h3kdev/discord-advanced-bot-h3k"
+    },
+    "keywords": [
+        "event-handler",
+        "command-handler",
+        "discord-bot-template",
+        "slash-command-handler"
+    ],
+    "author": "meliooff",
+    "license": "MIT",
+    "dependencies": {
+        "@discordjs/rest": "^0.2.0-canary.0",
+        "@discordjs/voice": "^0.13.0",
+        "axios": "^1.6.0",
+        "chalk": "^4.0.0",
+        "cute-logs": "^0.0.1",
+        "discord-modals": "^1.3.9",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.3.1",
+        "env": "^0.0.2",
+        "fs": "0.0.1-security",
+        "moment": "^2.29.4",
+        "mongoose": "^6.7.0",
+        "ms": "^2.1.3",
+        "node-fetch": "^3.2.10",
+        "path": "^0.12.7",
+        "twilio": "^4.21.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
